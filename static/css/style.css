@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+/* Added style to legend */
+.legend {
+  background: white;
+  line-height: 1.5em;
+  color: #555;
+  padding: 15px; /* Increased padding */
+  border-radius: 5px;
+  font-size: 16px; /* Increased font size */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Optional: add shadow for better visibility */
+}
+
+.legend i {
+  width: 18px; /* Adjusted width */
+  height: 18px; /* Adjusted height */
+  display: inline-block;
+  margin-right: 8px; /* Space between color box and text */
+}
